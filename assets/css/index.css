@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Tajawal:wght@300&display=swap');
+body{
+    display: flex;
+    
+}
+h1{
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+
+.phone{
+    background-color: #F1F0EA;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top:20px;
+
+    /* Light to dark gradient */
+    /* background: rgb(71,68,72);
+    background: linear-gradient(30deg, rgba(71,68,72,1) 0%, rgba(224,221,207,1) 79%); */
+
+    
+    /* Light Dark Light */
+    /* background: rgb(71,68,72);
+    background: linear-gradient(30deg, rgba(71,68,72,1) 0%, rgba(224,221,207,1) 40%, rgba(71,68,72,1) 79%); */
+    
+    /* Dark to light gradient */
+    background: rgb(224,221,207);
+    background: linear-gradient(30deg, rgba(224,221,207,1) 0%, rgba(71,68,72,1) 79%);
+
+
+    text-align: center;
+    
+    border-width: 4px 4px 4px 4px;
+    border-color: #2D232E;
+    border-style: solid;
+    border-radius: 12px;
+}
+#title{
+    
+    font-size: 24px;
+    background-color: #E0DDCF;
+    border-radius: 5px;
+    
+    
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 210px;
+    
+}
+.btn{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+    background-color: #474448;
+    color: #E0DDCF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Tajawal', sans-serif;
+    
+    transition: all 0.2s;
+}
+.btn:hover{
+    background-color: #2D232E;
+    font-weight: 900;
+    
+    color: white;
+    /*  */
+    scale: 1.2;
+    
+}
+.btn:active{
+    background-color: #1b161c;
+    /* text-decoration-line:underline ; */
+    
+    
+}
+a{
+    display: block;
+    text-decoration-line:none ;
+    color: inherit;
+}
+
+
+
